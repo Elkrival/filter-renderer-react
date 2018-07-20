@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.filter--list--holder {
+  width: 80%;
+  border: solid red 1px;
+  height: 20%;
+}
