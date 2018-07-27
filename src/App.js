@@ -22,8 +22,7 @@ class App extends Component {
   }
 handleDataSubmit(){
  let filterDataResponse = data.facets.text.list.filter(el => el.displayName !== "Color")
-  let a = filterers(filterDataResponse);
-  console.log(a)
+  // let a = filterers(filterDataResponse);
   return this.setState((state)=> state.data = filterers(filterDataResponse))
 }
 }
